@@ -56,11 +56,14 @@ const Content = styled.div`
   background: white;
   border-radius: 8px;
   width: 65%;
+  height: 600px;
+  max-width: 400px;
 `;
 
 const Header = styled.header`
   padding: 16px;
   padding-bottom: 8px;
+  border-bottom: 1px solid grey;
 `;
 
 const CloseButton = styled.button`
